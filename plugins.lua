@@ -63,6 +63,13 @@ local plugins = {
 
   -- To use a extras plugin
   -- { import = "custom.configs.extras.symbols-outline", },
+
+  -- enable the copilot plugin
+  { import = "custom.configs.extras.copilot", },
+  -- install and enable the trouble plugin
+  { import = "custom.configs.extras.trouble", },
+  -- enable the diffview plugin
+  { import = "custom.configs.extras.diffview", },
 }
 
 return plugins
